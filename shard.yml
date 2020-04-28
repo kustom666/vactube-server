@@ -1,0 +1,23 @@
+name: vactube-server-cr
+version: 0.1.0
+
+authors:
+  - Paul Forti <paul.forti@gmail.com>
+
+targets:
+  vactube-server:
+    main: src/vactube-server.cr
+
+crystal: 0.34.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  msgpack:
+    github: crystal-community/msgpack-crystal
+  spec-kemal:
+    github: kemalcr/spec-kemal
+  ncurses:
+    github: SamualLB/ncurses
+
+license: GPLv3
